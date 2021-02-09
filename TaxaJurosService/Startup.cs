@@ -30,7 +30,7 @@ namespace TaxaJurosService
             {
                 c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
                 {
-                    Title = "Calcula Juros Service",
+                    Title = "Taxa de Juros Service",
                     Version = "v1"
                 });
             });
@@ -50,7 +50,7 @@ namespace TaxaJurosService
 
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API Calcula Juros");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API Taxa de Juros");
             });
 
             app.UseRouting();
