@@ -3,6 +3,7 @@
 Repositorio de Api que fornce taxa de juros
 
 .Net Core 3.1
+
 Docker version 20.10.2
 
 Execução:
