@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  taxajurosservice:
+    image: ${DOCKER_REGISTRY-}taxajurosservice
+    ports:
+    - "59432:80"
+    
+    build:
+      context: .
+      dockerfile: TaxaJurosService/Dockerfile
+
+
+networks:
+  my-network:
+    external: true
+
